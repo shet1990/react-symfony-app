@@ -1,0 +1,6 @@
+http:
+    address: 0.0.0.0:80
+    workers:
+        command: "php /apps/server/public/worker.php"
+        pool:
+            numWorkers: 6
